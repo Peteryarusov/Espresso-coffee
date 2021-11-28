@@ -12,7 +12,6 @@ class DBSample(QMainWindow):
         uic.loadUi('main.ui', self)
         self.pushButton.clicked.connect(self.select_data)
 
-
     def select_data(self):
         # Получим результат запроса,
         # который ввели в текстовое поле
